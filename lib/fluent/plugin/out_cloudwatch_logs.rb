@@ -40,7 +40,7 @@ module Fluent
     def initialize
       super
 
-      require 'aws-sdk-core'
+      require 'aws-sdk'
     end
 
     def placeholders
